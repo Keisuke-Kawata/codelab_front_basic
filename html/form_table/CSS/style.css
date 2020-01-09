@@ -1,0 +1,42 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  background-color: #c1c1c1;
+  font-weight: bold;
+  width: 50%;
+}
+td {
+  text-align: left;
+}
+.odd:nth-child(odd){
+  background-color: #c1c1c1;
+  font-weight: bold;
+}
+.size {
+  width: 90%;
+}
+.sent {
+  background-color: #1c79fe;
+  color: #fff;
+  width: 30%;
+  height: 50px;
+  margin: 2rem;
+}
