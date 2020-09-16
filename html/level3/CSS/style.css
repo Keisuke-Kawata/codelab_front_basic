@@ -1,0 +1,36 @@
+header {
+  background-color: #858585;
+}
+
+.hdr {
+  max-width: 980px;
+}
+
+.edogawa {
+  margin: 0 auto;
+}
+
+.edogawa h1 {
+  color: #fff;
+  padding-top: 1rem;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.edogawa p {
+  color: #a5a5a5;
+}
+
+.sns {
+  text-align: right;
+  height: 30px;
+}
+
+.shear {
+  vertical-align: middle;
+  display: inline;
+}
+
+.sns img {
+  position: absolute;
+}

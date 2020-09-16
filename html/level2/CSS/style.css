@@ -56,9 +56,11 @@ main p img {
 .mag {
   margin: 0 10%;
 }
-.welcome h1 {
+.welcome h2 {
   color: #205484;
   text-align: left;
+  font-size: 2rem;
+  margin: 4rem 0;
 }
 
 .welcome p {
@@ -71,10 +73,11 @@ main p img {
   display: flex;
 }
 
-.about h1 {
+.about h2 {
   color: #205484;
-  margin: 0;
+  margin-bottom: 2rem;
   text-align: left;
+  font-size: 2rem;
 }
 
 .drink img {
@@ -90,6 +93,7 @@ main p img {
 .word p {
   text-align: left;
   line-height: 2;
+  margin-top: 15px;
 }
 
 .read {
@@ -105,10 +109,11 @@ button {
   font-weight: lighter;
 }
 
-.gallery h1 {
+.gallery h2 {
   color: #205484;
   text-align: left;
   margin: 20% 0 5%;
+  font-size: 2rem;
 }
 
 .galleryimg {
@@ -120,10 +125,11 @@ button {
   margin-right: 2%;
 }
 
-.second h1 {
+.second h2 {
   color: #205484;
   text-align: left;
   margin: 20% 0 5%;
+  font-size: 2rem;
 }
 
 .secondimg {
@@ -135,10 +141,11 @@ button {
   margin-right: 2%;
 }
 
-.third h1 {
+.third h2 {
   color: #205484;
   text-align: left;
   margin: 20% 0 5%;
+  font-size: 2rem;
 }
 
 .thirdimg {
@@ -150,10 +157,11 @@ button {
   margin-right: 2%;
 }
 
-.contact h1 {
+.contact h2 {
   color: #205484;
   text-align: left;
   margin: 20% 0 5%;
+  font-size: 2rem;
 }
 
 .form {
@@ -169,7 +177,7 @@ button {
 
 .nullam p {
   line-height: 2;
-  margin: 0;
+  margin-top: 15px;
   text-align: left;
 }
 input {
@@ -195,7 +203,7 @@ input::placeholder, textarea::placeholder {
   display: flex;
 }
 
-.copy {
+footer {
   margin-top: 30px;
   margin-bottom: 20px;
 }
