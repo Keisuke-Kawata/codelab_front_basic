@@ -1,36 +1,289 @@
-header {
-  background-color: #858585;
+
+.grid-container {
+  height: auto;
+  width: 980px;
+  padding-left: calc((100% - 980px)/2);
+  padding-right: calc((100% - 980px)/2);
+  box-sizing: border-box;
 }
 
-.hdr {
-  max-width: 980px;
+#header {
+  position: relative;
+  background-color: #858585;
+  width: 100%;
+  height: 100px;
+}
+
+header::after {
+  content: '';
+    display: block;
+    position: absolute;
+    /* background-repeat: repeat-x; */
+    background-image: url(../img/bg_giza.png);
+    background-position: 0 19px;
+    width: 100%;
+    height: 10px;
+    left: 0;
+}
+
+.fansite {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
 }
 
 .edogawa {
-  margin: 0 auto;
+  text-align: left;
+  float: left;
+  margin: 10px 0;
 }
 
 .edogawa h1 {
   color: #fff;
-  padding-top: 1rem;
-  font-size: x-large;
+  font-size: larger;
   font-weight: bold;
+  padding-bottom: 5px;
 }
 
 .edogawa p {
-  color: #a5a5a5;
+  color: #ababab;
 }
 
 .sns {
   text-align: right;
-  height: 30px;
+  float: left;
+  display: flex;
+  flex: end;
+  margin: 20px 0;
 }
 
-.shear {
-  vertical-align: middle;
-  display: inline;
+.sns p {
+  color: #fff;
+  line-height: 30px;
 }
 
-.sns img {
+.sns span {
+  font-weight: bold;
+}
+
+span[data-icon-pos] {
+  display: block;
+  position: relative;
+}
+
+span[data-icon-pos]:before {
+  position: relative;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-attachment: 64px 64px;
+  content: "";
+}
+
+span[data-icon]:before {
+  background-image: url(../img/sprite.png);
+}
+
+.twitter {
+  width: 32px;
+  height: 32px;
+}
+
+span[data-icon="twitter"]::before {
+  background-position: 0 0;
+  transition: 1s;
+}
+
+span[data-icon="twitter"]:hover::before {
+  background-position: 0 -32px;
+  transition: 1s;
+}
+
+.facebook {
+  width: 32px;
+  height: 32px;
+}
+
+span[data-icon="facebook"]::before {
+  background-position: -32px 0;
+  transition: 1s;
+}
+
+span[data-icon="facebook"]:hover::before {
+  background-position: -32px -32px;
+  transition: 1s;
+}
+
+#main {
+  background-image: url("../img/bg_tekusu.jpg");
+  width: 100%;
+  clear: both;
+  display: flex;
+}
+
+.left {
+  width: 20%;
+  order: 0;
+  padding: 40px 0;
+}
+
+.login {
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: #fff;
+}
+
+.login p {
+  padding: 6px;
+}
+
+.kensaku {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.search {
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: #fff;
+}
+
+input {
+  border: none;
+}
+
+span[data-icon="human"]::before {
+  background-position: -64px -32px;
+}
+
+span[data-icon="glass"]::before {
+  background-position: -64px 0px;
+}
+
+.category p {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.category li {
+  background-color: #fff;
+  padding: 7px;
+  margin-bottom: 5px;
+}
+
+.center {
+  width: 50%;
+  order: 1;
+  padding: 40px 20px;
+}
+
+.center h2 {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.center img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.center p {
+  font-size: small;
+}
+
+.twenty {
+  padding: 15px 0;
+}
+
+.center h3 {
+  font-size: larger;
+  font-weight: bold;
+  padding-left: 15px;
+  border-left: 5px solid #000;
+}
+
+.right {
+  width: 30%;
+  order: 2;
+  padding: 40px 0;
+}
+
+.right h2 {
+  font-size: larger;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.right p {
+  font-size: small;
+}
+
+.ranking {
+  padding: 10px 80px;
+  margin-bottom: 10px;
+  display: flex;
+  background-color: #fff;
+}
+
+.ranking p {
+  padding: 10px 0;
+}
+
+span[data-icon="cup"]::before {
+  background-position: -96px 0;
+}
+
+.first {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.second {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.third {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  font-size: small;
+}
+
+.help ul li {
+  padding: 5px 20px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+#footer {
+  position: relative;
+  background-color: #858585;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-size: small;
+}
+
+footer::before {
+  content: '';
   position: absolute;
+  background-image: url(../img/bg_giza.png);
+  background-position: 0 10px;
+  width: 100%;
+  height: 10px;
+  bottom: 53px;
+  left: 0;
 }
