@@ -1,0 +1,317 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../images/slider_img.jpg);
+  background-size: cover;
+  height: 500px;
+}
+.header {
+  display: flex;
+}
+.title {
+  padding: 20px 60px;
+}
+.gyoen {
+  padding: 70px;
+}
+header h1 {
+  color: #fff;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+header p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.gym {
+  font-size: 40px;
+}
+.nav {
+  background-color: #b63472;
+  width: 15%;
+  color: #fff;
+  height: 200px;
+  padding: 30px;
+  position: relative;
+  left: 100px;
+}
+nav ul li {
+  margin-bottom: 5px;
+}
+main {
+  background-color: #f0f0f0;
+}
+.yoga{
+  display: flex;
+  justify-content: center;
+  margin: 0 5%;
+}
+.sports {
+  background-color: #fff;
+  width: 70%;
+  height: 470px;
+  position: relative;
+  top: -70px;
+}
+.plank {
+  display: flex;
+}
+.plank img {
+  width: 65%;
+  height: 65%;
+  position: relative;
+  top: -70px;
+  left: 10px;
+}
+.women {
+  width: 100%;
+  text-align: left;
+  margin: 20px;
+}
+.women h1 {
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+.women p {
+  margin-bottom: 7px;
+}
+.detail {
+  color: #b63472;
+}
+.new {
+  padding: 10px;
+  position: relative;
+  top: -30px;
+}
+.new h1 {
+  font-size: xx-large;
+  margin-bottom: 15px;
+}
+.new p {
+  margin-bottom: 7px;
+}
+.btn {
+  display: inline-block;
+  background-color: #c86092;
+  color: #fff;
+  padding: 20px;
+  border-bottom: #a7376c 4px solid;
+}
+.shape {
+  width: 290px;
+  height: 500px;
+  position: relative;
+  top: -20px;
+}
+.course {
+  background-image: url(../images/feature_bg.png);
+  height: 680px;
+}
+.select {
+  text-align: center;
+  color: #fff;
+  padding-top: 100px;
+}
+.select h1 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.fab {
+  color: #fff;
+  display: flex!important;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 100px;
+  position: relative;
+  top: -50px;
+  box-sizing: border-box;
+}
+i {
+  justify-content: center;
+  font-size: 5rem;
+}
+.run {
+  width: 30%;
+  margin: 10px 10px;
+}
+.run h2 {
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+.run p {
+  margin-bottom: 15px;
+}
+.swim {
+  width: 30%;
+  margin: 10px 10px;
+}
+.swim h2 {
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+.swim p {
+  margin-bottom: 15px;
+}
+.dum {
+  width: 30%;
+  margin: 10px 10px;
+}
+.dum h2 {
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  top: -20px;
+}
+.dum p {
+  margin-bottom: 15px;
+}
+.radius {
+  background-image: url(../images/coaches_bg.jpg);
+  height: 659px;
+  padding-left: 5%;
+}
+.radius div {
+  background: linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -moz-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -o-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  line-height: 120px;
+  color: #fff;
+  font-size: x-large;
+  font-weight: bold;
+}
+.buru:hover {
+  animation: fluffy1 3s ease infinite;
+}
+@keyframes fluffy1 {
+  0% { transform:translateY(0) }
+  5% { transform:translateY(0) }
+  10% { transform:translateY(0) }
+  20% { transform:translateY(-15px) }
+  25% { transform:translateY(0) }
+  30% { transform:translateY(-15px) }
+  50% { transform:translateY(0) }
+  100% { transform:translateY(0) }
+}
+.prog {
+  justify-content: center;
+}
+.prog h1 {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  margin: 0 5%;
+}
+.flex img {
+  width: 90%;
+  padding: 20px 5px;
+}
+.pink {
+  background-color: #b63472;
+  color: #fff;
+  text-align: center;
+  width: 70%;
+  position: relative;
+  top: -50px;
+  left: 40px;
+}
+.pink h2 {
+  font-size: larger;
+  padding: 10px 0 5px;
+}
+.pink h3 {
+  padding-bottom: 10px;
+}
+footer {
+  background: linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -webkit-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -moz-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+  background: -o-linear-gradient(left ,#8165a6, #d83f87) repeat scroll 0 0;
+}
+.footer {
+  display: flex;
+}
+.boot p {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.lady {
+  background-color: #fff;
+  display: flex;
+  width: 50%;
+}
+.lady img {
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+.pose {
+  width: 50%;
+}
+.dammy h1 {
+  font-size: x-large;
+  font-weight: bold;
+  padding-top: 70px;
+}
+.dammy p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.link {
+  width: 20%;
+  color: #fff;
+  padding: 70px 20px;
+}
+.link h2 {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.link li {
+  padding-bottom: 10px;
+}
+.contact {
+  width: 30%;
+  color: #fff;
+  padding: 70px 20px;
+}
+.contact h3 {
+  font-size: large;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.contact p {
+  text-align: left;
+  padding-bottom: 10px;
+}
+.contact i {
+  font-size: 1rem;
+  padding-right: 5px;
+}
+span {
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
