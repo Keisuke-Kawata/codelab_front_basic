@@ -150,20 +150,20 @@ var course = '中級';
 
 // while問題
 // 変数hogeが10~5の数値をコンソールに出力するようにwhileの条件を記載してください
-var hoge = 10;
-while () {
-  console.log(hoge);
-  hoge--;
-}
+// var hoge = 10;
+// while () {
+//   console.log(hoge);
+//   hoge--;
+// }
 
 
 // do...while問題
 // do内の処理を1度だけ実行するようにdo...while文の条件を記載してください。
-var hoge2 = 5;
-do {
-  console.log(hoge2);
-  hoge2--;
-} while ();
+// var hoge2 = 5;
+// do {
+//   console.log(hoge2);
+//   hoge2--;
+// } while ();
 
 
 // for問題
